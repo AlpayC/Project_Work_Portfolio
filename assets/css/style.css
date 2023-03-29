@@ -1,0 +1,288 @@
+:root {
+    --black:#000;
+    --white: #fff;
+    --graydark: #333;
+    --graymiddle: #666;
+    --graywhite: #9E9E9E;
+}
+@font-face {
+    font-family:didact;
+    src: url(../fonts/DidactGothic-Regular.ttf);
+}
+@font-face {
+    font-family: fjalla;
+    src: url(../fonts/FjallaOne-Regular.ttf);
+}
+@font-face {
+    font-family: worksansbold;
+    src: url(../fonts/WorkSans-Bold.ttf);
+}
+@font-face {
+    font-family: worksansregular;
+    src: url(../fonts/WorkSans-Regular.ttf);
+}
+html {
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+header {
+    text-align: center;
+    padding: 2.0rem 36.0rem 15.2rem 36.0rem;
+    height:196.1rem;
+   
+}
+header p{
+    font-family: worksansregular;
+    font-size: 2.0rem;
+    margin-bottom: 6rem;
+    color:var(--black);
+}
+h1 {
+    font-family: didact;
+    font-size: 10.0rem;
+    text-transform: uppercase;
+    letter-spacing: 0.2rem;
+    margin-bottom: 6rem;
+    color:var(--black);
+    line-height: 13.0rem;
+}
+img{
+    margin-bottom: 11.8rem;
+    width: 72rem;
+}
+header a{
+    font-family: worksansregular;
+    text-decoration: none;
+    color:var(--black);
+    font-size: 16.0rem;
+    margin-bottom: 15.2rem;
+    text-transform: uppercase;
+}
+/* header a:hover{
+    text-decoration-line: underline;  
+} */
+
+
+/* Sektionen Referenzen */
+main p {
+    color: var(--graywhite);
+    font-size: 2rem;
+    font-family: worksansregular;
+    margin-bottom: 2rem;
+}
+main h2 {
+    font-family: didact;
+    text-transform: uppercase;
+    font-size: 11.2rem;
+    margin-bottom: 4rem;
+}
+main h3 {
+    color: var(--graywhite);
+    font-size: 2rem;
+    font-family: worksansregular;
+    margin-bottom: 8rem;
+}
+/* Orbis */
+.first_project {
+    padding: 15rem 12rem 10rem 22rem;
+    height:82.6rem;
+    background: url(../img/portfolio2.jpg) center no-repeat;
+    /* filter: brightness(50%); */
+    background-size: cover;
+    color: var(--white)
+}
+.first_project .btn{
+    font-family: fjalla;
+    text-decoration: none;
+    font-size: 1.6rem;
+    color: var(--white);
+    text-transform: uppercase;
+    padding:1.6rem 2.6rem;
+    border: 2px solid var(--graywhite);
+}
+.first_project .nr {
+    text-align: right;
+    font-family: fjalla;
+    font-size: 16.5rem;
+    color: var(--graywhite);
+    letter-spacing: -0.2rem;
+    filter: opacity(20%);
+}
+.first_project .btn:hover {
+    color: var(--black);
+    background-color: var(--white);
+    border: 2px solid var(--white);
+}
+.first_project .btn:hover ~ .nr{
+    color: var(--white);
+    filter: opacity(100%);
+}
+/* Rollr */
+.second_project {
+    padding: 15rem 12rem 10rem 22rem;
+    height:105.6rem;
+    background: url(../img/portfolio3.png) center no-repeat;
+    /* filter: brightness(50%); */
+    background-size: cover;
+    color: var(--black)
+}
+.second_project .btn{
+    font-family: fjalla;
+    text-decoration: none;
+    font-size: 1.6rem;
+    color: var(--black);
+    text-transform: uppercase;
+    padding:1.6rem 2.6rem;
+    border: 2px solid var(--graywhite);
+}
+.second_project .nr {
+    text-align: right;
+    font-family: fjalla;
+    font-size: 16.5rem;
+    color: var(--graymiddle);
+    letter-spacing: -0.2rem;
+    filter: opacity(90%);
+}
+.second_project .btn:hover {
+    color: var(--white);
+    background-color: var(--black);
+    border: 2px solid var(--black);
+}
+.second_project .btn:hover ~ .nr{
+    color: var(--black);
+    filter: opacity(100%);
+}
+/* Galitos */
+.third_project {
+    padding: 15rem 12rem 10rem 22rem;
+    height:82.6rem;
+    background: url(../img/portfolio4.jpg) center no-repeat;
+    /* filter: brightness(50%); */
+    background-size: cover;
+    color: var(--white)
+}
+.third_project .btn{
+    font-family: fjalla;
+    text-decoration: none;
+    font-size: 1.6rem;
+    color: var(--white);
+    text-transform: uppercase;
+    padding:1.6rem 2.6rem;
+    border: 2px solid var(--graywhite);
+}
+.third_project .nr {
+    text-align: right;
+    font-family: fjalla;
+    font-size: 16.5rem;
+    color: var(--graywhite);
+    letter-spacing: -0.2rem;
+    filter: opacity(20%);
+}
+.third_project .btn:hover {
+    color: var(--black);
+    background-color: var(--white);
+    border: 2px solid var(--white);
+}
+.third_project .btn:hover ~ .nr{
+    color: var(--white);
+    filter: opacity(100%);
+}
+/* Tretto */
+.fourth_project {
+    padding: 15rem 12rem 10rem 22rem;
+    height:105.6rem;
+    background: url(../img/portfolio5.png) center no-repeat;
+    /* filter: brightness(50%); */
+    background-size: cover;
+    color: var(--black)
+}
+.fourth_project  .btn{
+    font-family: fjalla;
+    text-decoration: none;
+    font-size: 1.6rem;
+    color: var(--black);
+    text-transform: uppercase;
+    padding:1.6rem 2.6rem;
+    border: 2px solid var(--graywhite);
+}
+.fourth_project .nr {
+    text-align: right;
+    font-family: fjalla;
+    font-size: 16.5rem;
+    color: var(--graymiddle);
+    letter-spacing: -0.2rem;
+    filter: opacity(90%);
+}
+.fourth_project .btn:hover {
+    color: var(--white);
+    background-color: var(--black);
+    border: 2px solid var(--black);
+}
+.fourth_project .btn:hover ~ .nr{
+    color: var(--black);
+    filter: opacity(100%);
+}
+.more {
+    background-color: var(--black);
+    height: 93.1rem;
+    text-align: left;
+    padding: 13rem 10rem 10rem 26.7rem;
+}
+.more h4{
+    color:var(--white);
+    font-size: 18rem;
+    font-family: worksansregular;
+    margin-bottom: 15rem;
+}
+.more .mailbox {
+    margin-left: 27vw;
+    letter-spacing: 0.1rem;
+    line-height: 4rem;
+
+}
+.more .mailbox p{
+    margin-bottom: 7rem;
+}
+.more .mailbox a{
+    font-size: 6rem;
+    font-family: worksansregular;
+    text-decoration: none;
+    color: var(--white);
+}
+.more .mailbox a:hover{
+    text-decoration-line: underline;  
+}
+footer{
+    padding:23rem 36.9rem 13rem 36.9rem;
+    background-color: var(--white);
+    font-family: didact;
+    font-size: 16rem;
+    color: var(--black);
+    height: 152rem;  
+    text-align: center;
+}
+footer a {
+    display: block;
+    margin-bottom: 15rem;
+    text-decoration: none;
+    color: var(--black);
+}
+footer a:hover {
+    text-decoration-line: underline;  
+}
+.heart {
+    fill: var(--black);
+    width: 2rem;
+    animation: pulse 1s ease infinite;
+  }
+  
+  @keyframes pulse {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.6); }
+    100% { transform: scale(1); }
+  }
