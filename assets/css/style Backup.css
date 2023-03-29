@@ -26,7 +26,6 @@ html {
     margin: 0;
     box-sizing: border-box;
 }
-/* General Settings für komplette Seite*/
 h1, h2, nav a, footer{
     font-family: didact;
 } 
@@ -167,13 +166,12 @@ main h3 {
     padding:13rem 15.7rem 15rem 15.7rem
 }
 .more .mailbox {
-    padding:0rem 6.94443vw 0rem 44.44441vw;
+    padding:0rem 10rem 0rem 64rem;
     letter-spacing: 0.1rem;
     line-height: 4rem;
 }
 .more .mailbox p{
     margin-bottom: 7rem;
-    color: var(--graymiddle);
 }
 .more .mailbox a{
     font-size: 6rem;
@@ -209,3 +207,5 @@ footer a:hover {
     50% { transform: scale(1.6); }
     100% { transform: scale(1); }
 }
+
+/* Final Version */
